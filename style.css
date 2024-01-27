@@ -1,0 +1,162 @@
+/*  pagina  */
+*{
+    margin: 0;
+    padding: 0;
+}
+.color{
+    background-color: rgb(207, 207, 207);
+}
+/*  header  */
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    text-align: center;
+}
+.opciones{
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+}
+.opciones__contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.opciones__contenedor a {
+    text-decoration: none;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+#logo__restaurante{
+    width: 200px;
+    height: 200px;
+}
+.iconos__contenedor{
+    color: white;
+    font-size: 50px;
+}
+/* carrusel */
+.carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    text-align: center;
+}
+.carousel{
+    width: 1000px;
+    height: 1000px;
+    background-color: gray;
+}
+.carousel-item{
+    padding: 10px;
+}
+.carousel-item img{
+    height: 600px;
+}
+.carousel-item button{
+    background-color: green;
+    font-size: 30px;
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+}
+.carousel-control{
+    color: red;
+}
+p{
+    margin: 10px;
+    font-size: 20px;
+    color: red;
+}
+.precio{
+    margin: 5px;
+    font-size: 50px;
+    color: green;
+}
+
+/* targetas */
+.selecion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selecion button{
+    border: none;
+    border-bottom: solid 5px red;
+    background-color: transparent;
+    font-size: 30px;
+    color: red;
+    margin: 20px;
+}
+.targetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin: 5px;
+    width: 400px;
+    height: 400px;
+}
+.card .costo{
+    border: none;
+    background-color: transparent;
+    color: green;
+}
+.targetas button{
+    background-color: green;
+    font-size: 30px;
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+}
+.card-img {
+    width: 100%;
+    height: auto;
+  }
+/*  horarios seccion  */
+
+.horarios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    margin: 20px;
+}
+
+.titulo{
+    font-size: 30px;
+    color: gray;
+}
+.Horarios{
+    font-size: 5vw;
+}
+.horarios__contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.horarios__contenedor i{
+    font-size: 30px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.horarios__contenedor img{
+    width: 20vw;
+}
+.horarios .Redes{
+    text-decoration: none;
+}
